@@ -18,7 +18,7 @@ Shout text strings are stored in a [postgres](http://www.postgresql.org/) databa
   
   Add a postgres database to your heroku app using the command:
   
-    heroku addons:add heroku-postgresql
+    heroku addons:create heroku-postgresql
 
 > This command adds a free Heroku postgres database plan
 
